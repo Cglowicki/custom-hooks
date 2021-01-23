@@ -1,0 +1,19 @@
+.App {
+  margin: 3 em;
+ }
+
+h4 {
+  padding: 0px;
+  margin:.2em;
+ }
+ h4:empty:before {
+   content: "\200b"; /* unicode zero width space character */
+ }
+
+button {
+  height: 2em;
+  font-size: 0.7em;
+  background-color: lightgreen;
+  margin-right: 0.4em;
+  margin-top: 0.4em;
+  }
